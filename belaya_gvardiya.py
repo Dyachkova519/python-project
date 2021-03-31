@@ -43,6 +43,6 @@ def author_com_from_dialog(dialoglist):
     if len(authorlist3) != 0:
         authors_comments.extend(authorlist3)
       
-    return authors_comments
+  return authors_comments
 
 print(author_com_from_dialog(myli))
