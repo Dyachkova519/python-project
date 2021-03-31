@@ -22,10 +22,10 @@ def speech_from_text(file):
   #print(i)
 myli = speech_from_text('belaya_gvardia.txt')
 
-p_author2 = re.compile(r'[,.!?] — [^—.!?]*\. — ')
-p_author3 = re.compile(r', — [^—.!?]*, — ')
-p_speechandauthor1 = re.compile(r'^— [^—]*[,.] — [^—!?]*\.$')
-p_author1 = re.compile(r', — [^—!?]*\.')
+p_author2 = re.compile(r'[,...!?] — [^—]*\. — ')
+p_author3 = re.compile(r'[,...!?] — [^—]*, — ')
+p_speechandauthor1 = re.compile(r'^— [^—]*[,.] — [^—]*\.$')
+p_author1 = re.compile(r', — [^—]*\.')
 
 def author_com_from_dialog(dialoglist):
   authors_comments = []
