@@ -45,4 +45,6 @@ def author_com_from_dialog(dialoglist):
       
   return authors_comments
 
-print(author_com_from_dialog(myli))
+
+for i in author_com_from_dialog(myli):
+  print(i)
