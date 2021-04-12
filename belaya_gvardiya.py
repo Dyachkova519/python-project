@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import re
+import json
 
 p_dialog = re.compile(r'^— .*[.!?]$')
 p_speech = re.compile(r'[^.!?]*: «.*»\.')
